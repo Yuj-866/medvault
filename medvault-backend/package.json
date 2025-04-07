@@ -1,0 +1,21 @@
+{
+  "name": "medvault-backend",
+  "version": "1.0.0",
+  "description": "Backend for MedVault - a digital medicine repository",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "setup-db": "mysql -u root -p < database.sql",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["medvault", "medicine", "api", "mysql", "express"],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mysql": "^2.18.1"
+  }
+}
